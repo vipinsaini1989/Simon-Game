@@ -1,0 +1,90 @@
+.outerDiv {
+	width: 50%;
+	height: 400px;
+	margin-top: 10%;
+	border-style: ridge;
+}
+.centerDiv {
+	width: 25%;
+	height: 300px;
+	background-color: grey;
+	position: absolute;
+	margin-top: 4%;
+	margin-left: 12%;
+	border-radius: 50%;
+	border-style: ridge;
+}
+.heading {
+	margin-top: 5%;
+	font-family: 'Alfa Slab One', cursive;
+    color: #222;
+    font-size: 3.2em;
+ }
+.count div {
+	border-style: groove;
+	font-size: 20px;
+	padding: 20%;
+	background-color: black;
+	color: red;
+}
+.count {
+	margin-top: 15%;
+	margin-left: 22%;
+	float: left;
+}
+.startBtn div {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	border-style: outset;
+	background-color: red;
+}
+.startBtn {
+	float: left;
+	margin-top: 18%;
+	margin-left: 10%;
+}
+.strictBtn div {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	border-style: outset;
+	background-color: red;
+}
+.strictBtn {
+	float: left;
+	margin-top: 18%;
+	margin-left: 10%;
+}
+.onOff {
+	margin-top: 45%;
+}
+.onOff input {
+	border-radius: 10%;
+	padding: 2%;
+	margin-right: 2%;
+}
+.green {
+	width: 50%;
+	height: 200px;
+	background-color: green;
+	float: left;
+}
+.red {
+	width: 50%;
+	height: 200px;
+	background-color: red;
+	float: right;
+}
+.yellow {
+	width: 50%;
+	height: 200px;
+	background-color: yellow;
+	float: left;
+}
+.blue {
+	width: 50%;
+	height: 200px;
+	background-color: blue;
+	float: right;
+}
