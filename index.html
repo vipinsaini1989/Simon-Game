@@ -9,31 +9,54 @@
 <body>
 <center>
 	<div class="outerDiv">
-		<div class="green"></div>
-		<div class="red"></div>
+		<!-- All four color div -->
+		<div id="colorCombo">
+		<div id="green" class="lightColor"></div>
+		<div id="red" class="lightColor"></div>
+		<div id="yellow" class="lightColor"></div>
+		<div id="blue" class="lightColor"></div>
+		</div>
 		<div class="centerDiv">
+			<!-- Main heading -->
 			<div class="heading">simon</div>
 		<div class="count">
-			<div>--</div>
+			<!-- Score Board -->
+			<div id="scoreBoard">--</div>
 			<p>Count</p>
 		</div>
 		<div class="startBtn">
-			<div></div>
+			<!-- Start button -->
+			<div id="start"></div>
 			<p>Start</p>
 		</div>
 		<div class="strictBtn">
-			<div></div>
+			<!-- Strict button -->
+			<div id="strict"></div>
 			<p>Strict</p>
 		</div>
 		<div class="onOff">
+			<!-- ON and Off button -->
 			<input type="button" value="ON" name="">
 			<input type="button" value="OFF" name="">
 		</div>
 		</div>
-		<div class="yellow"></div>
-		<div class="blue"></div>
 	</div>
 </center>
+<div >
+	<!-- All audio for blink and click -->
+	<audio id = "green" class="sound">
+		<source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" type="audio/mp3">
+	</audio>
+	<audio id = "red" class="sound">
+		<source src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" type="audio/mp3">
+	</audio>
+	<audio id = "yellow" class="sound">
+		<source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" type="audio/mp3">
+	</audio>
+	<audio id = "blue" class="sound">
+		<source src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" type="audio/mp3">
+	</audio>
+</div>
 <script type="text/javascript" src="script.js"></script>
 </body>
 </html>

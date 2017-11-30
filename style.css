@@ -25,7 +25,7 @@
 	font-size: 20px;
 	padding: 20%;
 	background-color: black;
-	color: red;
+	color: darkgrey;
 }
 .count {
 	margin-top: 15%;
@@ -64,25 +64,25 @@
 	padding: 2%;
 	margin-right: 2%;
 }
-.green {
+#green {
 	width: 50%;
 	height: 200px;
 	background-color: green;
 	float: left;
 }
-.red {
+#red {
 	width: 50%;
 	height: 200px;
 	background-color: red;
 	float: right;
 }
-.yellow {
+#yellow {
 	width: 50%;
 	height: 200px;
 	background-color: yellow;
 	float: left;
 }
-.blue {
+#blue {
 	width: 50%;
 	height: 200px;
 	background-color: blue;
